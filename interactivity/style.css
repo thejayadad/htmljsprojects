@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    justify-content: flex-end; /* Space between children */
+    height: 100vh; /* Full height of the viewport */
+}
+.my-button {
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+  }
+  
+  .my-button:hover {
+    background-color: #0056b3;
+  }
+  
